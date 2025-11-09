@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="48" fill="#0F172A"/>
+  <rect width="1200" height="630" rx="48" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="180" y1="102" x2="1020" y2="528" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <g opacity="0.18">
+    <circle cx="1080" cy="120" r="220" fill="url(#accentGrad)"/>
+    <circle cx="120" cy="540" r="220" fill="url(#accentGrad2)"/>
+  </g>
+  <defs>
+    <radialGradient id="accentGrad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 120) rotate(90) scale(220)">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="accentGrad2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 540) rotate(90) scale(220)">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <text x="120" y="220" fill="#60A5FA" font-family="Helvetica, Arial, sans-serif" font-size="18" letter-spacing="18" opacity="0.8">
+    WEB CAP MEDIA
+  </text>
+  <text x="120" y="320" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="600">
+    Digital studio shaping standout products.
+  </text>
+  <text x="120" y="400" fill="#CBD5F5" font-family="Helvetica, Arial, sans-serif" font-size="26">
+    Wiznote · Framewave · Pulseboard · Atlas Sites
+  </text>
+  <rect x="120" y="460" width="340" height="72" rx="36" fill="#2563EB" />
+  <text x="150" y="505" fill="#F8FAFC" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600">
+    webcap.media
+  </text>
+</svg>
+
