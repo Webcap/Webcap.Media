@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import webcapLogo from "./assets/webcaplogo.png";
+
 import { Section } from "@/components/Section";
 import { Wordmark } from "@/components/Wordmark";
 
@@ -71,6 +73,12 @@ export default function Home() {
         <div className="mx-auto grid w-full max-w-6xl gap-12 px-6 sm:px-8 md:px-12 lg:grid-cols-[minmax(0,1fr)_minmax(320px,380px)]">
           <div className="flex flex-col gap-10">
             <Wordmark className="text-sm tracking-[0.5em]" accentClassName="text-accent-strong" />
+            {/* <div className="flex items-center gap-4 rounded-[var(--radius-lg)] border border-white/40 bg-white/70 p-4 shadow-soft backdrop-blur">
+              <Image src={webcapLogo} width={96} height={96} className="h-16 w-16 shrink-0" alt="Webcap Media logo" priority />
+              <p className="text-sm font-medium leading-relaxed text-ink-muted">
+                A global-first creative studio crafting cinematic experiences for the web and beyond.
+              </p>
+            </div> */}
             <div className="flex flex-col gap-6">
               <h1 className="text-balance text-4xl font-semibold tracking-tight text-ink sm:text-5xl md:text-6xl">
                 Building polished product experiences for teams with bold ideas.
