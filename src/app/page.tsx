@@ -386,7 +386,7 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
-              href="mailto:support@webcap.media"
+              href="mailto:carl.nieves@webcap.media"
               className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white transition hover:bg-accent-strong"
             >
               Email the studio <span aria-hidden>↗</span>
@@ -401,7 +401,7 @@ export default function Home() {
             </Link>
           </div>
           <p className="text-xs font-semibold uppercase tracking-[0.4em] text-ink-muted">
-            Available for Q1 2026 project starts
+            Available for Q2 2026 project starts
           </p>
         </div>
       </Section>
